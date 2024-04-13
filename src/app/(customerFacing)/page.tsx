@@ -77,7 +77,7 @@ function ProductGridSection({
   )
 }
 
-async function ProductSuspense({
+export async function ProductSuspense({
   productsFetcher,
 }: {
   productsFetcher: () => Promise<Product[]>
